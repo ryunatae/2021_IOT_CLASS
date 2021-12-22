@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{# 주석처리 #}
+<body>
+    {% if title %} {#중괄호 1개에 %를 각 양 끝에 쓰면 로직처리를 말함.#}
+      {{ title }} {# {{}}은 flask내부 진자임. 변수값 자체를 출력할때는 중괄호 2개, 주석처리시에는 중괄호 1개에 양 끝에 #하면 됨.#}
+    {% endif %}
+    <br>
+    <p>First Page</p>
+    <a href="/">Go Home</a>
+</body>
+</html>
