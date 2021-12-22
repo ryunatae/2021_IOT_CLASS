@@ -20,8 +20,8 @@
 
 ~~취소선은 이렇게 표현 (물결표 양끝에 두개씩)~~
 
-'''python
+```python  
 print('Hello, World')
-'''
+```
 
 print('Hello, world')
